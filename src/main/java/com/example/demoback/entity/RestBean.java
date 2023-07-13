@@ -2,6 +2,12 @@ package com.example.demoback.entity;
 
 import lombok.Data;
 
+/**
+ * 登录状态实体类
+ *
+ * @author xu-jssy
+ * @return 
+ */
 @Data
 public class RestBean<T> {
     private int status;

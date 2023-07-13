@@ -1,8 +1,10 @@
+# dev环境配置
+
 spring: #spring配置
-  datasource:
+  datasource: #数据源配置
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/study?useUnicode=true&useSSL=false&characterEncoding=utf8
-    username: root
+    url: jdbc:mysql://172.27.162.115:3306/study?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: user
     password: 2021yyds
 
 
